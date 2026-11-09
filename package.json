@@ -1,0 +1,29 @@
+{
+  "name": "entrega-1-ci-api",
+  "version": "1.0.0",
+  "description": "API REST con Node.js 22, Express y PostgreSQL orquestada con Docker y pruebas con node:test",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/app.test.js tests/integracion.test.js",
+    "test:unit": "node --test tests/app.test.js",
+    "test:integration": "node --test tests/integracion.test.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "postgresql",
+    "docker",
+    "continuous-integration",
+    "node-test"
+  ],
+  "author": "Equipo DevOps / Backend",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
+

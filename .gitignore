@@ -1,0 +1,29 @@
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Logs del sistema y contenedores
+logs
+*.log
+
+# Datos de base de datos local
+postgres_data/
+
+# Sistema operativo e IDEs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
